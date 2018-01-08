@@ -1,0 +1,16 @@
+{
+    "passPerPreset": true,
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "es2015",
+      "stage-3"
+    ],
+    "ignore": ["node_modules", "build"]
+  }
